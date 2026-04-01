@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid #00ffcc;
+    display: inline-block;
+    border-radius: 10px;
+}
