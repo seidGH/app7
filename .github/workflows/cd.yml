@@ -53,5 +53,5 @@ jobs:
             # Maps Port 80 on the EC2 to Port 8080 inside the Docker container
             docker run -d \
             --name app7-container \
-            -p 3000:8080 \
+            -p 3000:5000 \
             ${{ secrets.DOCKER_USERNAME }}/app7:latest
